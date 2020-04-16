@@ -45,3 +45,18 @@ a:hover, a:active, a:focus {
 		}
 	}
 }
+#roster{
+	background-color: $OKC_Orange;
+	margin-left: 40px;
+	padding: 5px;
+	width: 20%;
+	lh{
+		text-align: left;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-weight: bold;
+		font-size: large;
+	}
+	a{
+		color: $OKC_dark;
+	}
+}

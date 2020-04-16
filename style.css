@@ -32,4 +32,17 @@ a:hover, a:active, a:focus {
   #info #lastgame a {
     color: #008347; }
 
+#roster {
+  background-color: #F1502F;
+  margin-left: 40px;
+  padding: 5px;
+  width: 20%; }
+  #roster lh {
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large; }
+  #roster a {
+    color: #002962; }
+
 /*# sourceMappingURL=style.css.map */
