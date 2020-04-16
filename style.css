@@ -1,0 +1,35 @@
+body {
+  background-color: #007dc3; }
+
+@media (min-width: 500px) {
+  h1::before {
+    content: "Oklahoma City Thunder Central"; } }
+@media (max-width: 499px) {
+  h1::before {
+    content: "OKC Thunder Central"; } }
+h1 {
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bold;
+  color: #F1502F;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+a {
+  color: #FDBC2D; }
+
+a:hover, a:active, a:focus {
+  color: #F1502F; }
+
+#top {
+  margin: 30px; }
+
+#info {
+  margin: 25px;
+  margin-left: 35px;
+  margin-right: 0px;
+  font-size: medium;
+  color: #FDBC2D; }
+  #info #lastgame a {
+    color: #008347; }
+
+/*# sourceMappingURL=style.css.map */
