@@ -29,7 +29,7 @@ a{
 }
 a:hover, a:active, a:focus {
 	color:$OKC_Orange;
-  }
+}
 #top{
 	margin: 30px;
 }
@@ -45,20 +45,64 @@ a:hover, a:active, a:focus {
 		}
 	}
 }
-#roster{
-	background-color: $OKC_Orange;
-	margin-left: 40px;
+#middle{
 	margin-bottom: 15px;
-	margin-top: -40px;
+	margin-top: -35px;
 	padding: 15px;
-	width: 300px;
-	lh{
-		text-align: left;
-		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-		font-weight: bold;
-		font-size: large;
-	}
 	a{
 		color: $OKC_dark;
+	}
+	a:hover, a:active, a:focus {
+		color:$OKC_blue;
+	}
+	#roster{
+		background-color: $OKC_Orange;
+		margin-left: 40px;
+		width: 300px;
+		lh{
+			text-align: left;
+			font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+			font-weight: bold;
+			font-size: x-large;
+			color: $OKC_Yellow;
+		}
+	}
+	#season{
+		background-color: $OKC_Yellow;
+		margin-left: 40px;
+		width: 400px;
+		padding: 15px;
+		font-size: large;
+		font-weight: bold;
+		a{
+			font-weight: normal;
+			font-size: large;
+		}
+		img{
+			height: 60px;
+			margin-left: 135px;
+			border: 2px solid $OKC_dark;
+			border-collapse: collapse;
+		}
+		.adams{
+			margin-left: 100px;
+		}
+		.sga{
+			margin-left: 10px;
+		}
+		.noel{
+			margin-left: 109px;
+		}
+		.expl{
+			font-weight: normal;
+			font-size: small;
+		}
+		h3{
+			font-size: xx-large;
+			text-align: center;
+			font-weight: bold;
+			color: $OKC_Orange;
+			font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		}
 	}
 }

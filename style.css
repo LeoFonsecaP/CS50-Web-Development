@@ -32,19 +32,53 @@ a:hover, a:active, a:focus {
   #info #lastgame a {
     color: #008347; }
 
-#roster {
-  background-color: #F1502F;
-  margin-left: 40px;
+#middle {
   margin-bottom: 15px;
-  margin-top: -40px;
-  padding: 15px;
-  width: 300px; }
-  #roster lh {
-    text-align: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    font-size: large; }
-  #roster a {
+  margin-top: -35px;
+  padding: 15px; }
+  #middle a {
     color: #002962; }
+  #middle a:hover, #middle a:active, #middle a:focus {
+    color: #007dc3; }
+  #middle #roster {
+    background-color: #F1502F;
+    margin-left: 40px;
+    width: 300px; }
+    #middle #roster lh {
+      text-align: left;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+      font-size: x-large;
+      color: #FDBC2D; }
+  #middle #season {
+    background-color: #FDBC2D;
+    margin-left: 40px;
+    width: 400px;
+    padding: 15px;
+    font-size: large;
+    font-weight: bold; }
+    #middle #season a {
+      font-weight: normal;
+      font-size: large; }
+    #middle #season img {
+      height: 60px;
+      margin-left: 135px;
+      border: 2px solid #002962;
+      border-collapse: collapse; }
+    #middle #season .adams {
+      margin-left: 100px; }
+    #middle #season .sga {
+      margin-left: 10px; }
+    #middle #season .noel {
+      margin-left: 109px; }
+    #middle #season .expl {
+      font-weight: normal;
+      font-size: small; }
+    #middle #season h3 {
+      font-size: xx-large;
+      text-align: center;
+      font-weight: bold;
+      color: #F1502F;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
