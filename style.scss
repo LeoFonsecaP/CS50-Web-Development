@@ -6,21 +6,13 @@ $op_color: #008347;
 body{
 	background-color: $OKC_blue;
 }
-@media(min-width: 500px){
-	h1::before{
-		content: "Oklahoma City Thunder Central";
-	}
-}
-@media(max-width: 499px){
-	h1::before{
-		content: "OKC Thunder Central";
-	}
-}
-
-h1{
+%title{
 	font-size: xx-large;
 	text-align: center;
 	font-weight: bold;
+}
+h1{
+	@extend %title;
 	color: $OKC_Orange;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -39,7 +31,7 @@ a:hover, a:active, a:focus {
 	margin-right: 0px;
 	font-size: medium;
 	color: $OKC_Yellow;
-	#lastgame{
+	.lastgame{
 		a{
 			color: $op_color;
 		}
@@ -58,6 +50,7 @@ a:hover, a:active, a:focus {
 	#roster{
 		background-color: $OKC_Orange;
 		margin-left: 40px;
+		margin-bottom: 15px;
 		width: 300px;
 		lh{
 			text-align: left;
@@ -70,6 +63,7 @@ a:hover, a:active, a:focus {
 	#season{
 		background-color: $OKC_Yellow;
 		margin-left: 40px;
+		margin-bottom: 15px;
 		width: 400px;
 		padding: 15px;
 		font-size: large;
@@ -98,11 +92,74 @@ a:hover, a:active, a:focus {
 			font-size: small;
 		}
 		h3{
-			font-size: xx-large;
-			text-align: center;
-			font-weight: bold;
+			@extend %title;
 			color: $OKC_Orange;
 			font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 		}
+	}
+	#standings{
+		background-color: $OKC_dark;
+		margin-left: 40px;
+		margin-bottom: 15px;
+		width: 500px;
+		text-align: center;
+		padding: 10px;
+		th{
+			@extend %title;
+			width: 500px;
+			font-size: large;
+			
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+			color: $OKC_Yellow;
+		}
+		td{
+			color: $OKC_Orange;
+			border: 1px solid black;
+		}
+		.okc{
+			color: $OKC_Yellow;
+		}
+	}
+}
+#bottom{
+	margin-left: 50px;
+	.lastgame{
+		a{
+			color: $op_color;
+		}
+	}
+}
+@media(min-width: 650px){
+	h1::before{
+		content: "Oklahoma City Thunder Central";
+	}
+	.lgmob{
+		display: none;
+	}
+	#site::before{
+		content: "Oklahoma City Thunder official website";
+	}
+}
+@media(max-width: 649px){
+	body{
+		margin-right: 15px;
+	}
+	h1::before{
+		content: "OKC Thunder Central";
+	}
+	h1{
+		text-align: start;
+		width: 300px;
+	}
+	#top, #middle{
+		img{
+			display: none;
+		}
+	}
+	.lgpc{
+		display: none;
+	}
+	#site::before{
+		content: "OKC official website";
 	}
 }
