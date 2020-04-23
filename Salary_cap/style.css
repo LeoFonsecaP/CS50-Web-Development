@@ -1,0 +1,66 @@
+body {
+  background-color: #007dc3;
+  margin-left: 10px; }
+
+h1 {
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bold; }
+
+h1 {
+  color: #F1502F;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+a {
+  color: #FDBC2D; }
+
+a:hover, a:active, a:focus {
+  color: #F1502F; }
+
+#top {
+  margin: 30px; }
+
+#info {
+  margin: 25px;
+  margin-left: 35px;
+  margin-right: 0px;
+  font-size: medium;
+  color: #FDBC2D; }
+  #info .lastgame a {
+    color: #008347; }
+
+#bottom {
+  margin-left: 50px; }
+  #bottom .lastgame a {
+    color: #008347; }
+
+@media (min-width: 800px) {
+  h1::before {
+    content: "Oklahoma City Thunder Central"; }
+
+  .lgmob {
+    display: none; }
+
+  #site::before {
+    content: "Oklahoma City Thunder official website"; } }
+@media (max-width: 799px) {
+  body {
+    margin-right: 15px; }
+
+  h1::before {
+    content: "Thunder Central"; }
+
+  h1 {
+    text-align: center;
+    width: 300px; }
+
+  #top img, #middle img {
+    display: none; }
+
+  .lgpc {
+    display: none; }
+
+  #site::before {
+    content: "OKC official website"; } }
+
+/*# sourceMappingURL=style.css.map */
