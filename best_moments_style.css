@@ -41,8 +41,14 @@ a:hover, a:active, a:focus {
     color: #F1502F;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-  #middle #top5 li {
+  #middle #top5 img {
     padding: 5px; }
+    @media (min-width: 992px) {
+      #middle #top5 img {
+        margin-left: 35%; } }
+    @media (max-width: 991px) {
+      #middle #top5 img {
+        margin-left: 15%; } }
 
 #bottom {
   margin-left: 50px; }
