@@ -31,7 +31,6 @@ a:hover, a:active, a:focus {
 
 #middle table {
   background-color: #002962;
-  margin-left: 40px;
   margin-bottom: 15px;
   text-align: center;
   padding: 40px;
@@ -50,16 +49,16 @@ a:hover, a:active, a:focus {
   #bottom .lastgame a {
     color: #008347; }
 
-@media (min-width: 800px) {
+@media (min-width: 992px) {
   h1::before {
     content: "Oklahoma City Thunder Central"; }
 
-  .lgmob {
-    display: none; }
-
   #site::before {
-    content: "Oklahoma City Thunder official website"; } }
-@media (max-width: 799px) {
+    content: "Oklahoma City Thunder official website"; }
+
+  #middle {
+    margin-left: 40px; } }
+@media (max-width: 991px) {
   body {
     margin-right: 15px; }
 
@@ -73,10 +72,13 @@ a:hover, a:active, a:focus {
   #top img, #middle img {
     display: none; }
 
-  .lgpc {
-    display: none; }
-
   #site::before {
     content: "OKC official website"; } }
+@media (max-width: 1024px) {
+  .lgpc {
+    display: none; } }
+@media (min-width: 1025px) {
+  .lgmob {
+    display: none; } }
 
 /*# sourceMappingURL=salary_style.css.map */

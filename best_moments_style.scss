@@ -1,0 +1,112 @@
+$OKC_blue: #007dc3;
+$OKC_dark: #002962;
+$OKC_Orange: #F1502F;
+$OKC_Yellow: #FDBC2D;
+$op_color: #008347;
+body{
+	background-color: $OKC_blue;
+	margin-left: 10px;
+}
+%title{
+	font-size: xx-large;
+	text-align: center;
+	font-weight: bold;
+}
+h1{
+	@extend %title;
+	color: $OKC_Orange;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+	color: $OKC_Yellow;
+}
+a:hover, a:active, a:focus {
+	color:$OKC_Orange;
+}
+#top{
+	margin: 30px;
+}
+#info{
+	margin: 25px;
+	margin-left: 35px;
+	margin-right: 0px;
+	font-size: medium;
+	color: $OKC_Yellow;
+	.lastgame{
+		a{
+			color: $op_color;
+		}
+	}
+}
+#middle{
+	h3{
+		text-align: center;
+		color: $OKC_Yellow;
+		font-weight: bold;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		
+	}
+	#top5{
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-size: medium;
+		h4{
+			color: $OKC_Orange;
+			font-weight: bold;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		
+		}
+		li{
+			padding: 5px;
+		}
+	}	
+}
+#bottom{
+	margin-left: 50px;
+	.lastgame{
+		a{
+			color: $op_color;
+		}
+	}
+}
+@media(min-width: 992px){
+	h1::before{
+		content: "Oklahoma City Thunder Central";
+	}
+	#site::before{
+		content: "Oklahoma City Thunder official website";
+	}
+	#middle{
+		margin-left: 15px;
+	}
+}
+@media(max-width: 991px){
+	body{
+		margin-right: 15px;
+		margin-left: 15px;;
+	}
+	h1::before{
+		content: "Thunder Central";
+	}
+	h1{
+		text-align: center;
+		width: 300px;
+	}
+	#top{
+		img{
+			display: none;
+		}
+	}
+	#site::before{
+		content: "OKC official website";
+	}
+}
+@media(max-width: 1024px){
+	.lgpc{
+		display: none;
+	}
+}
+@media(min-width: 1025px){
+	.lgmob{
+		display: none;
+	}
+}

@@ -41,7 +41,6 @@ a:hover, a:active, a:focus {
 #middle{
 	table{
 		background-color: $OKC_dark;
-		margin-left: 40px;
 		margin-bottom: 15px;
 		text-align: center;
 		padding: 40px;
@@ -67,18 +66,18 @@ a:hover, a:active, a:focus {
 		}
 	}
 }
-@media(min-width: 800px){
+@media(min-width: 992px){
 	h1::before{
 		content: "Oklahoma City Thunder Central";
-	}
-	.lgmob{
-		display: none;
 	}
 	#site::before{
 		content: "Oklahoma City Thunder official website";
 	}
+	#middle{
+		margin-left: 40px;
+	}
 }
-@media(max-width: 799px){
+@media(max-width: 991px){
 	body{
 		margin-right: 15px;
 	}
@@ -94,10 +93,17 @@ a:hover, a:active, a:focus {
 			display: none;
 		}
 	}
+	#site::before{
+		content: "OKC official website";
+	}
+}
+@media(max-width: 1024px){
 	.lgpc{
 		display: none;
 	}
-	#site::before{
-		content: "OKC official website";
+}
+@media(min-width: 1025px){
+	.lgmob{
+		display: none;
 	}
 }
