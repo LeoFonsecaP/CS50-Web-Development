@@ -34,7 +34,8 @@ a:hover, a:active, a:focus {
   margin-bottom: 15px;
   text-align: center;
   padding: 40px;
-  width: 90%; }
+  width: 90%;
+  flex-wrap: wrap; }
   #middle table th {
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

@@ -45,6 +45,7 @@ a:hover, a:active, a:focus {
 		text-align: center;
 		padding: 40px;
 		width: 90%;
+		flex-wrap: wrap;
 		th{
 			@extend %title;
 			font-size: large;
