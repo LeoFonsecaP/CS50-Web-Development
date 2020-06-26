@@ -49,6 +49,9 @@ a:hover, a:active, a:focus {
 	#top5{
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: medium;
+		p{
+			margin-right: 2%;
+		}
 		h4{
 			color: $OKC_Orange;
 			font-weight: bold;

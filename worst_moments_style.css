@@ -37,6 +37,8 @@ a:hover, a:active, a:focus {
 #middle #top5 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: medium; }
+  #middle #top5 p {
+    margin-right: 2%; }
   #middle #top5 h4 {
     color: #F1502F;
     font-weight: bold;
