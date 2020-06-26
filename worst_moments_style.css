@@ -1,0 +1,105 @@
+body {
+  background-color: #007dc3;
+  margin-left: 10px; }
+
+h1 {
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bold; }
+
+h1 {
+  color: #F1502F;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+a {
+  color: #FDBC2D; }
+
+a:hover, a:active, a:focus {
+  color: #F1502F; }
+
+#top {
+  margin: 30px; }
+
+#info {
+  margin: 25px;
+  margin-left: 35px;
+  margin-right: 0px;
+  font-size: medium;
+  color: #FDBC2D; }
+  #info .lastgame a {
+    color: #008347; }
+
+#middle h3 {
+  text-align: center;
+  color: #FDBC2D;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+#middle #top5 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium; }
+  #middle #top5 h4 {
+    color: #F1502F;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  #middle #top5 .Disclaimer {
+    font-weight: bold; }
+  #middle #top5 img {
+    padding: 5px; }
+    @media (min-width: 992px) {
+      #middle #top5 img {
+        margin-left: 20%; } }
+    @media (max-width: 991px) {
+      #middle #top5 img {
+        margin-left: 25%; } }
+  @media (min-width: 992px) {
+    #middle #top5 video {
+      margin-left: 10%; } }
+  @media (max-width: 991px) {
+    #middle #top5 video {
+      margin-left: 15%; } }
+  @media (min-width: 992px) {
+    #middle #top5 #wmvp {
+      margin-left: 20%; } }
+  @media (max-width: 991px) {
+    #middle #top5 #wmvp {
+      margin-left: 0%; } }
+
+#bottom {
+  margin-left: 50px; }
+  #bottom .lastgame a {
+    color: #008347; }
+
+@media (min-width: 992px) {
+  h1::before {
+    content: "Oklahoma City Thunder Central"; }
+
+  #site::before {
+    content: "Oklahoma City Thunder official website"; }
+
+  #middle {
+    margin-left: 15px; } }
+@media (max-width: 991px) {
+  body {
+    margin-right: 15px;
+    margin-left: 20px; }
+
+  h1::before {
+    content: "Thunder Central"; }
+
+  h1 {
+    text-align: center;
+    width: 300px; }
+
+  #top img {
+    display: none; }
+
+  #site::before {
+    content: "OKC official website"; } }
+@media (max-width: 1024px) {
+  .lgpc {
+    display: none; } }
+@media (min-width: 1025px) {
+  .lgmob {
+    display: none; } }
+
+/*# sourceMappingURL=worst_moments_style.css.map */

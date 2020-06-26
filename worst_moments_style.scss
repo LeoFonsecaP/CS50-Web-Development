@@ -39,7 +39,52 @@ a:hover, a:active, a:focus {
 	}
 }
 #middle{
+	h3{
+		text-align: center;
+		color: $OKC_Yellow;
+		font-weight: bold;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		
+	}
+	#top5{
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-size: medium;
+		h4{
+			color: $OKC_Orange;
+			font-weight: bold;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	
+		}
+		.Disclaimer{
+			font-weight: bold;
+		}
+		img{
+			padding: 5px;
+			@media(min-width: 992px){
+				margin-left: 20%;
+			}
+			@media(max-width: 991px){
+				margin-left: 25%;
+			}
+		}
+		video{
+			@media(min-width: 992px){
+				margin-left: 10%;
+			}
+			@media(max-width: 991px){
+				margin-left: 15%;
+			}
+		}
+		#wmvp{
+			@media(min-width: 992px){
+				margin-left: 20%;
+			}
+			@media(max-width: 991px){
+				margin-left: 0%;
+			}
+		}
+	}	
+}
 #bottom{
 	margin-left: 50px;
 	.lastgame{
@@ -56,12 +101,13 @@ a:hover, a:active, a:focus {
 		content: "Oklahoma City Thunder official website";
 	}
 	#middle{
-		margin-left: 40px;
+		margin-left: 15px;
 	}
 }
 @media(max-width: 991px){
 	body{
 		margin-right: 15px;
+		margin-left: 20px;;
 	}
 	h1::before{
 		content: "Thunder Central";
@@ -88,5 +134,4 @@ a:hover, a:active, a:focus {
 	.lgmob{
 		display: none;
 	}
-}
 }
